@@ -89,6 +89,6 @@ class Actor(Entity):
         self.fighter.entity = self
 
     @property
-    def in_alive(self) -> bool:
+    def is_alive(self) -> bool:
         return bool(self.ai)
 
