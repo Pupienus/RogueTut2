@@ -12,7 +12,7 @@ player = Actor(
 )
 
 orc = Actor(
-    char="p",
+    char="o",
     color=(63, 127, 63),
     name="Orc",
     ai_cls=HostileEnemy,
